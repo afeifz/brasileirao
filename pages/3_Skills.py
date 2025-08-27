@@ -13,11 +13,11 @@ with col2:
     st.subheader("💻 Hard Skills")
     st.markdown(
         """
-        - **Linguagens de Programação:** Python, SQL, R  
-        - **Bibliotecas/Data Science:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
-        - **Dashboards/BI:** Streamlit, Power BI, Tableau  
-        - **Banco de Dados:** MySQL, PostgreSQL  
-        - **Outros:** Git, Excel Avançado, APIs REST  
+        - **Linguagens de Programação:** Python, SQL, React 
+        - **Bibliotecas/Data Science:** Pandas, NumPy, Matplotlib, Seaborn  
+        - **Dashboards/BI:** Streamlit
+        - **Banco de Dados:** MySQL, Oracle 
+        - **Outros:** Git, Excel Avançado
         """
     )
 
@@ -43,6 +43,5 @@ with col2:
         """
         - Português — Nativo  
         - Inglês — Intermediário/Avançado  
-        - Espanhol — Básico  
         """
     )
