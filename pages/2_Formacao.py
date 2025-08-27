@@ -14,7 +14,7 @@ with col2:
     st.markdown(
         """
         - **Bacharelado em Engenharia de Software** — FIAP X (2024 – 2028)  
-        - **Cursos online relevantes:** Python, SQL, React, Estatística Aplicada  
+        - **Cursos online relevantes:** Python, React, Estatística Aplicada  
         """
     )
 
