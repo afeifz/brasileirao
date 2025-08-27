@@ -110,8 +110,6 @@ if "data" not in st.session_state:
 else:
     df = st.session_state["data"]
 
-# resumo limpeza
-
 
 # -------------------------
 # Abas (1,2,3)
