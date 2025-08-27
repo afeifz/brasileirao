@@ -17,7 +17,7 @@ with col2:
         - **Bibliotecas/Data Science:** Pandas, NumPy, Matplotlib, Seaborn  
         - **Dashboards/BI:** Streamlit
         - **Banco de Dados:** MySQL, Oracle 
-        - **Outros:** Git, Excel Avançado
+        - **Outros:** Git, Excel
         """
     )
 
