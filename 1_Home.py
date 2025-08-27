@@ -28,8 +28,8 @@ with col2:
     st.subheader("🎯 Objetivo profissional")
     st.markdown(
         """
-        Atuar como **Analista/Cientista de Dados**, desenvolvendo análises estatísticas
-        e dashboards interativos que apoiem decisões estratégicas.  
+        Atuar como **Profissional de T.I**, desenvolvendo soluções
+        e evoluir na área.  
         """
     )
 
