@@ -13,9 +13,8 @@ with col2:
     st.subheader("📚 Formação Acadêmica")
     st.markdown(
         """
-        - **Bacharelado em [Seu Curso]** — Universidade X (Ano início – Ano fim)  
-        - **Curso Técnico em [Área]** — Instituição Y (Ano início – Ano fim)  
-        - **Cursos online relevantes:** Python, SQL, Análise de Dados, Estatística Aplicada  
+        - **Bacharelado em Engenharia de Software** — FIAP X (2024 – 2028)  
+        - **Cursos online relevantes:** Python, SQL, React, Estatística Aplicada  
         """
     )
 
@@ -25,23 +24,7 @@ with col2:
     st.subheader("📑 Certificações")
     st.markdown(
         """
-        - Certificação X — Instituição A (Ano)  
-        - Certificação Y — Instituição B (Ano)  
-        """
-    )
-
-    st.write("")  # espaço
-
-    # Experiência Profissional
-    st.subheader("💼 Experiência Profissional")
-    st.markdown(
-        """
-        - **Cargo 1** — Empresa A (Ano início – Ano fim)  
-          Principais atividades: análise de dados, criação de dashboards e relatórios.  
-
-        - **Cargo 2** — Empresa B (Ano início – Ano fim)  
-          Principais atividades: extração e tratamento de dados, automação em Python.  
-
-        - **Estágios/Projetos:** desenvolvimento de scripts para ETL e dashboards em Streamlit.  
+        - Front-End - Alura 
+        - Nano Courses - FIAP
         """
     )
