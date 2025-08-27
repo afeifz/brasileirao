@@ -36,7 +36,7 @@ with col2:
     st.write("")  # espaço
 
     # Contato/resumo rápido — simples e centralizado
-    st.markdown("**Contato:** afeifz@gmail.com • [LinkedIn](https://linkedin.com/mohamedafif) • [GitHub](https://github.com/afeifz)")  # TODO: editar
+    st.markdown("**Contato:** afeifz@gmail.com • [LinkedIn](https://linkedin.com/in/mohamedafif) • [GitHub](https://github.com/afeifz)")  # TODO: editar
 
 # Mensagem orientando o avaliador / usuário
 st.info("Navegue pelas abas para ver Formação, Skills e a Análise de Dados")
