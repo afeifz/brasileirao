@@ -17,8 +17,8 @@ with col2:
     st.markdown(
         """
         **Resumo profissional:**  
-        Analista de Dados com experiência em Python, ETL e visualização. 
-        Gosto de transformar dados em insights acionáveis para negócio.
+        Estudante de T.I com experiência em Python, Front-End e Redes. 
+        Gosto de construir aprendizado na área.
         """
     )
 
