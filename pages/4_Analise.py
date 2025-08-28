@@ -37,7 +37,7 @@ def load_and_clean(path):
     # renomear variações comuns para nomes padronizados
     rename_map = {}
     for c in df.columns:
-        if c == "rodata":       # você mencionou que no CSV a coluna se chama 'rodata'
+        if c == "rodata":      
             rename_map[c] = "rodada"
         # possíveis variações
         if c.replace(" ", "").replace("-", "").replace("_", "") in ["partidaid", "idpartida"]:
@@ -115,24 +115,24 @@ else:
 # Abas (1,2,3)
 # -------------------------
 aba1, aba2, aba3 = st.tabs([
-    "1️⃣ Apresentação dos Dados",
-    "2️⃣ Estatísticas e Distribuições",
-    "3️⃣ Intervalos de Confiança & Testes"
+    "Apresentação dos Dados",
+    "Estatísticas e Distribuições",
+    "Intervalos de Confiança & Testes"
 ])
 
 # -------------------------
 # ABA 1 - Apresentação (critério 1)
 # -------------------------
 with aba1:
-    st.header("1️⃣ Apresentação dos Dados e Tipos de Variáveis")
+    st.header("Apresentação dos Dados e Tipos de Variáveis")
     st.markdown("""
     - Cada linha do dataset representa **um gol** marcado no Campeonato Brasileiro.  
     - **Colunas principais (padronizadas):**
-      - `partida_id` — identificador da partida (quando presente)  
-      - `rodada` — número da rodada (numérico, se possível)  
-      - `clube` — clube que marcou (categórica)  
-      - `atleta` — jogador que marcou (categórica)  
-      - `minuto` — minuto do gol (numérico, valores como `45+1` foram convertidos)
+      - `partida_id` — identificador da partida (Qualitativa nominal)
+      - `rodada` — número da rodada (Qualitativa ordinal)
+      - `clube` — clube que marcou (Qualitativa nominal)
+      - `atleta` — jogador que marcou (Qualitativa nominal)  
+      - `minuto` — minuto do gol (Quantitativa discreta)
     """)
     st.subheader("Pré-visualização")
     st.dataframe(df.head(10))
@@ -149,7 +149,7 @@ with aba1:
 # ABA 2 - Estatísticas e distribuições (critério 2)
 # -------------------------
 with aba2:
-    st.header("2️⃣ Medidas Centrais, Dispersão e Distribuições")
+    st.header("Medidas Centrais, Dispersão e Distribuições")
 
     df_min = df.dropna(subset=["minuto"]).copy()
     if len(df_min) == 0:
@@ -225,7 +225,7 @@ with aba2:
 # ABA 3 - Intervalos de Confiança e Testes (critério 3)
 # -------------------------
 with aba3:
-    st.header("3️⃣ Intervalos de Confiança e Testes de Hipótese")
+    st.header("Intervalos de Confiança e Testes de Hipótese")
 
     df_min = df.dropna(subset=["minuto"]).copy()
     n = len(df_min)

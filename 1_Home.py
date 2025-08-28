@@ -3,17 +3,16 @@ import streamlit as st
 # Configuração simples da página
 st.set_page_config(page_title="Dashboard - Home", layout="wide")
 
-# TÍTULO DO DASHBOARD (mantive o seu tema)
 st.title("⚽ Campeonato Brasileiro - Dashboard de Gols")
 
-# Espaço centralizado com 3 colunas; o conteúdo fica na coluna do meio
+
 col1, col2, col3 = st.columns([1, 2, 1])
 
 with col2:
-    st.header("Olá — Mohamed")  # TODO: substitua pelo seu nome se quiser
+    st.header("Olá, sou Mohamed")  
     st.write("")  # espaço
 
-    # Resumo profissional curto (2-3 linhas)
+    #
     st.markdown(
         """
         **Resumo profissional:**  
@@ -22,7 +21,7 @@ with col2:
         """
     )
 
-    st.write("")  # espaço
+    st.write("")  
 
     # Objetivo profissional
     st.subheader("🎯 Objetivo profissional")
@@ -33,10 +32,10 @@ with col2:
         """
     )
 
-    st.write("")  # espaço
+    st.write("") 
 
     # Contato/resumo rápido — simples e centralizado
-    st.markdown("**Contato:** afeifz@gmail.com • [LinkedIn](https://linkedin.com/in/mohamedafif) • [GitHub](https://github.com/afeifz)")  # TODO: editar
+    st.markdown("**Contato:** afeifz@gmail.com • [LinkedIn](https://linkedin.com/in/mohamedafif) • [GitHub](https://github.com/afeifz)")  
 
 # Mensagem orientando o avaliador / usuário
 st.info("Navegue pelas abas para ver Formação, Skills e a Análise de Dados")
