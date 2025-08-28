@@ -6,7 +6,7 @@ import re
 import math
 import matplotlib.pyplot as plt
 
-# tente usar scipy quando disponível para testes/t-quantis; se não, uso aproximações normais
+
 try:
     from scipy import stats as _scipy_stats
     SCIPY_AVAILABLE = True
