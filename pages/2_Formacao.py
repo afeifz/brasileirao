@@ -13,7 +13,7 @@ with col2:
     st.subheader("📚 Formação Acadêmica")
     st.markdown(
         """
-        - **Bacharelado em Engenharia de Software** — FIAP X (2024 – 2028)  
+        - **Bacharelado em Engenharia de Software** — FIAP (2024 – 2028)  
         - **Cursos online relevantes:** Python, React, Estatística Aplicada  
         """
     )
